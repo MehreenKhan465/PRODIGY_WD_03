@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Modern Tic-Tac-Toe — PvP & PvC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <h1 class="logo">✨ Tic-Tac-Toe</h1>
+
+    <div class="top">
+      <div class="modes">
+        <button id="pvpBtn" class="mode active">Player vs Player</button>
+        <button id="pvcBtn" class="mode">Player vs Computer</button>
+      </div>
+
+      <div class="info">
+        <div>Turn: <strong id="turnDisplay">X</strong></div>
+      </div>
+    </div>
+
+    <div id="board" class="board" aria-label="Tic Tac Toe board"></div>
+
+    <div class="controls">
+      <div class="score">
+        <div>X: <span id="scoreX">0</span></div>
+        <div>O: <span id="scoreO">0</span></div>
+      </div>
+      <div class="buttons">
+        <button id="restart">Restart Round</button>
+        <button id="resetScores" class="secondary">Reset Scores</button>
+      </div>
+    </div>
+
+    <footer class="foot">Repository name: <code>PRODIGY_WD_03</code></footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
